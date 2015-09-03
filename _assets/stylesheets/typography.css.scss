@@ -1,0 +1,61 @@
+/* ========================================================= Typography ===*/
+h1, h2, h3, h4 {
+  color: #25272B;
+  margin: 1.414em 0 0.5em;
+  font-family: 'ProximaNovaLight', sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+}
+h1{
+  font-size: 3.998em;
+  margin-top: 0;
+}
+h2{
+  font-size: 2.827em;
+  margin: 0 0 5px;
+}
+h3{
+  display: block;
+  font-family: 'ProximaNovaBold', sans-serif;
+  font-size: 22px;
+  margin: 0 0 5px;
+  text-align: center;
+}
+h4{
+  font-size: 1.414em;
+  margin: 5px 0;
+}
+p{
+  color: #949496;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 30px;
+  text-align: center;
+}
+strong{
+  color: #000;
+}
+small, .font_small{
+  font-size: 0.707em;
+}
+ul, ol{
+  margin: 0 0 20px;
+}
+li{
+  color: #656565;
+  font-family: 'ProximaNova', sans-serif;
+  line-height: 1.5;
+}
+dl{
+  color: #656565;
+  font-family: 'ProximaNova', sans-serif;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+dt{
+  font-weight: bold;
+}
+dd{
+  color: #A9A9A9;
+  margin: 0 0 10px 10px;
+}

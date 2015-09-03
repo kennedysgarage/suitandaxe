@@ -1,0 +1,183 @@
+@import "compass";
+@import "reset.css.scss";
+@import "variables.css.scss";
+@import "fontface.css.scss";
+@import "typography.css.scss";
+@import "grid.css.scss";
+@import "logo.css.scss";
+/* ========================================================= Main ===*/
+html, body{
+    background-color: #252429;
+    color: #373737;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.45;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.border{
+  border: 10px solid #252429;
+  border-bottom: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+.border:after{
+  background: #252429;
+  bottom: 0;
+  content: " ";
+  height: 10px;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 41;
+}
+.main{
+  background-color: #fff;
+  min-height: 98vh;
+  padding: 0 0 30px;
+}
+/* ========================================================= Header ===*/
+header{
+  padding: 50px 10px 0;
+  margin-bottom: 80px;
+  -webkit-animation: 3s ease;
+	-moz-animation: 3s ease;
+	-ms-animation: 3s ease;
+	-o-animation: 3s ease;
+	animation: 3s ease;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+  .logo{
+    display: inline-block;
+  }
+}
+/* ------
+-- Nav --
+------ */
+nav{
+  float: right;
+  ul{
+    li{
+      float: left;
+      a{
+        padding: 10px 10px 0;
+      }
+    }
+  }
+}
+/* ========================================================= Main ===*/
+.symbol{
+  margin-bottom: 80px;
+}
+.newsletter{
+  border: 2px solid #252429;
+  margin: 0 auto;
+  padding: 4px;
+  max-width: 600px;
+  position: relative;
+  input{
+    background: none;
+    border: none;
+    font-family: 'ProximaNovaLight';
+    line-height: 1.875rem;
+    height: 50px;
+    padding: 10px 180px 10px 30px;
+    width: 100%;
+  }
+  button{
+    background: none;
+    border: none;
+    border-left: 5px solid #fff;
+    box-shadow: -1px 0px #252429;
+    float: right;
+    font-family: 'ProximaNovaBold', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    padding: 10px 30px;
+    top: 5px;
+    height: 30px;
+    line-height: 1.875rem;
+    box-sizing: content-box;
+    -webkit-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  	-moz-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  	-ms-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  	-o-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  	transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+    &:hover{
+      background-color: #B5FFCE;
+    }
+  }
+}
+.thanks{
+  margin: 90px 0 30px;
+  font-size: 120px;
+}
+/* ========================================================= Footer ===*/
+footer{
+  padding: 0 10px;
+  -webkit-animation: 3s ease;
+	-moz-animation: 3s ease;
+	-ms-animation: 3s ease;
+	-o-animation: 3s ease;
+	animation: 3s ease;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+/* ========================================================= Animation ===*/
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+/* ========================================================= Respond ===*/
+@media all and (min-width: 41em){
+  body{font-size: 1.125em;}
+  .container{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .row{
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+  .col-12 { width: 100%; }
+  .col-9 { width: 75%; }
+  .col-8 { width: 66.7%; }
+  .col-6 { width: 50%; }
+  .col-4 { width: 33.3%; }
+  .col-3 { width: 25%; }
+}
+@media all and (min-width: 960px){
+
+}

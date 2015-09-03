@@ -1,0 +1,24 @@
+// Required
+// =========================================================================
+
+svg.uat-logo:not(:root) {
+  overflow: visible
+}
+
+svg.uat-logo {
+  height: auto;
+  max-width: 100%;
+  width: 300px;
+}
+
+svg.uat-logo #medal {
+  display: none; // temporary
+}
+
+svg.uat-logo .st1 {
+  opacity: 0;
+}
+
+.no-js svg.uat-logo .st1 {
+  opacity: 1;
+}
