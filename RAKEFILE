@@ -3,7 +3,7 @@ task :deploy do
   puts 'Deploying, silence is golden...'
   user = 'kg41.com'
   server = 's107775.gridserver.com'
-  path = 'domains/DOMAINNAME.com/html'
+  path = 'domains/suitandaxe.com/html'
   sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
   puts 'Cat is out of the bag!'
 end
